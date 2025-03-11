@@ -7,6 +7,9 @@ public class HelloWorld extends JFrame {
     public HelloWorld(){
         setContentPane(panel1);
         pack();
+
+        lblMensagem.setText("Piotr here!");
+    
     }
     public static void main(String[] args) {
         new HelloWorld().setVisible(true);
